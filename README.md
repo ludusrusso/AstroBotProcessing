@@ -1,20 +1,24 @@
-# Astro Server
+#Astro Server
 
 Per comunicare via socket con processing
 
-# Requirements
+#Requirements
 
 ```bash
 pip install telepot
 ```
 
-# RUN
+#RUN
 
 Definire `TOKEN`, `host`, `port` nella funzione main.
 
 Testato con Python 2.7 su un mac
 
-# Utilizzo
+```bash
+python astro_server.py
+```
+
+#Utilizzo
 
 Una volta lanciato il programma e il server processing, il bot risponderà ai comandi
 
